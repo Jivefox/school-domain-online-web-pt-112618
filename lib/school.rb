@@ -18,5 +18,6 @@ class School
 
   def sort(roster)
     roster.map do {|grade| grade.sort}
+    end
   end
 end
