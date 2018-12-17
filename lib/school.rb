@@ -19,7 +19,6 @@ class School
   def sort
     sorted_students = {}
     roster.map {|grade, student| sorted_students[grade] = student.sort}
-    end
-  end
     sorted_students
+  end
 end
