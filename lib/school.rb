@@ -20,5 +20,6 @@ class School
     sorted_students = {}
     roster.map do {|grade, student| sorted_students[grade] = student.sort}
     end
+    sorted_students
   end
 end
